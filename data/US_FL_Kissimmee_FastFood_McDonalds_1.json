@@ -1,0 +1,90 @@
+{
+    "meta": {
+        "name": "McDonalds",
+        "category": "Fast Food",
+        "locationData": {
+            "country": "US",
+            "state": "FL",
+            "city": "Kissimmee",
+            "address": "5725 W Irlo Bronson Memorial Hwy",
+            "zip": 34746,
+            "hours":{
+                "operation": ["00:00-23:59","00:00-23:59","00:00-23:59","00:00-23:59","00:00-23:59","00:00-23:59","00:00-23:59"],
+                "menu": {
+                    "breakfast": ["00:00-10:59","00:00-10:59","00:00-10:59","00:00-10:59","00:00-10:59","00:00-10:59","00:00-10:59"],
+                    "lunch": ["11:00-23:59","11:00-23:59","11:00-23:59","11:00-23:59","11:00-23:59","11:00-23:59","11:00-23:59"],
+                    "dinner": ["11:00-23:59","11:00-23:59","11:00-23:59","11:00-23:59","11:00-23:59","11:00-23:59","11:00-23:59"]
+                }
+            }
+        },
+        "callAhead": false,
+        "driveThru": true
+    },
+    "menu": {
+        "breakfast": [
+            {
+                "name": "Fruit & Maple Oatmeal",
+                "type": "oatmeal",
+                "category": "food",
+                "sizes": {
+                    "1size": 3.50
+                }
+            },
+            {
+                "name": "Fruit 'N Yogurt Parfait",
+                "type": "yogurt",
+                "category": "food",
+                "sizes": {
+                    "1size": 4.00
+                }
+            },
+            {
+                "name": "Egg McMuffin",
+                "type": "sandwich",
+                "category": "food",
+                "sizes": {
+                    "1size": 4.00
+                },
+                "combo": {
+                    "menuNumber": 1,
+                    "extras": [
+                        "Hash Browns", "[beverage]"
+                    ],
+                    "extraCharge": 0.50,
+                    "upgrades": {
+                        "small": 0.00,
+                        "medium": 0.25,
+                        "large": 0.35
+                    }
+                }
+            },
+            {
+                "name": "Hash Browns",
+                "type": "side",
+                "category": "food",
+                "sizes": {
+                    "1size": 1.00
+                }
+            },
+            {
+                "name": "1% Low Fat Milk",
+                "type": "milk",
+                "category": "beverage",
+                "sizes": {
+                    "1size": 2.50
+                }
+            },
+            {
+                "name": "Coca-Cola",
+                "type": "soda",
+                "category": "beverage",
+                "sizes": {
+                    "child": 1.00,
+                    "small": 1.10,
+                    "medium": 1.30,
+                    "large": 1.55
+                }
+            }
+        ]
+    }
+}
